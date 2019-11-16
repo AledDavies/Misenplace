@@ -1,0 +1,50 @@
+[core]
+	excludesfile = /Users/awd/.gitignore_global
+	autocrlf = input
+	editor = vim -f
+[push]
+	default = upstream
+[alias]
+	switch = !legit switch \"$@\"
+	branches = !legit branches
+	sprout = !legit sprout \"$@\"
+	unpublish = !legit unpublish \"$@\"
+	harvest = !legit harvest \"$@\"
+	sync = !legit sync \"$@\"
+	publish = !legit publish \"$@\"
+	graft = !legit graft \"$@\"
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[gpg]
+  program = /usr/local/bin/krgpg
+
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+
+# If you want to set up Kaleidoscope as the default diff tool,
+# then also set the following variables:
+[difftool]
+	prompt = false
+[diff]
+  tool = Kaleidoscope
+
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+
+# If you want to set up Kaleidoscope as the default merge tool,
+# then also set the following variables:
+[mergetool]
+	prompt = false
+	keepBackup = true
+[merge]
+  tool = Kaleidoscope  
+[include]
+  path = ~/.gitconfig_local  

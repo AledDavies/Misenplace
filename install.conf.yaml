@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- shell:
+  - mkdir -p ~/Documents/History
+  - mkdir -p ~/Documents/Workspace
+  - mkdir -p ~/Documents/Scratch
+  - mkdir -p ~/.config  
+
+- link:
+    ~/.zshrc: 'config/zsh/zshrc.zsh'
+    ~/.zprofile: 'config/zsh/zprofile.zsh'
+    ~/.gitconfig: 'config/git/gitconfig'
+    ~/.gitignore_global: 'config/git/gitignore_global'
+    ~/.vimrc: 'config/vim/vimrc'
+    ~/.gvimrc: 'config/vim/gvimrc'
+    ~/.config/karabiner: 'config/karabiner'
+    ~/.finicky.js: 'config/finicky/finicky.js'
+    ~/.curlrc: 'config/curl/curlrc'

@@ -1,0 +1,239 @@
+tap "aws/tap"
+tap "getantibody/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "jenkins-x/jx"
+tap "kryptco/tap"
+tap "rockymadden/rockymadden"
+tap "weaveworks/tap"
+cask "adoptopenjdk"
+brew "gdbm"
+brew "gettext"
+brew "libffi"
+brew "openssl@1.1"
+brew "readline"
+brew "sqlite"
+brew "xz"
+brew "pixman"
+brew "cairo"
+brew "gdk-pixbuf"
+brew "icu4c"
+brew "libyaml"
+brew "ansible"
+brew "ant"
+brew "atk"
+brew "node"
+brew "aws-cdk"
+brew "awscli"
+brew "b2-tools"
+brew "bash"
+brew "cdrtools", link: false
+brew "clojure"
+brew "coreutils"
+brew "cowsay"
+brew "credstash"
+brew "csvkit"
+brew "curl"
+brew "go"
+brew "dep"
+brew "doctl"
+brew "dos2unix"
+brew "doxygen"
+brew "duck"
+brew "faas-cli"
+brew "findutils"
+brew "flake8"
+brew "fswatch"
+brew "gd"
+brew "gdub"
+brew "ghc"
+brew "git"
+brew "gsasl"
+brew "libquvi"
+brew "quvi"
+brew "xdot"
+brew "git-annex"
+brew "gmp"
+brew "gradle"
+brew "groovy"
+brew "gtk+"
+brew "haskell-stack"
+brew "helm"
+brew "libtool"
+brew "imagemagick"
+brew "jenv"
+brew "jruby"
+brew "json-c"
+brew "k3d"
+brew "kubernetes-cli"
+brew "kubeseal"
+brew "leiningen"
+brew "libunistring"
+brew "libssh2"
+brew "lua"
+brew "mas"
+brew "maven"
+brew "mawk"
+brew "mitmproxy"
+brew "nettle"
+brew "nmap"
+brew "packer"
+brew "par2"
+brew "pdsh"
+brew "perl"
+brew "pipenv"
+brew "pngcrush"
+brew "pwgen"
+brew "pyenv"
+brew "rolldice"
+brew "roswell"
+brew "ruby", link: true
+brew "serverless"
+brew "shellcheck"
+brew "skaffold"
+brew "terraform"
+brew "terragrunt"
+brew "tmux"
+brew "unrar"
+brew "vim"
+brew "wget"
+brew "youtube-dl"
+brew "zsh"
+brew "aws/tap/aws-sam-cli"
+brew "getantibody/tap/antibody"
+brew "jenkins-x/jx/jx"
+brew "kryptco/tap/kr"
+brew "rockymadden/rockymadden/slack-cli"
+brew "weaveworks/tap/eksctl"
+cask "1password"
+cask "1password-cli"
+cask "airfoil"
+cask "alfred"
+cask "audio-hijack"
+cask "backblaze"
+cask "bartender"
+cask "bbc-iplayer-downloads"
+cask "bettertouchtool"
+cask "carbon-copy-cloner"
+cask "chromedriver"
+cask "cleanmymac"
+cask "discord"
+cask "docker-edge"
+cask "farrago"
+cask "finicky"
+cask "fission"
+cask "font-armata"
+cask "font-fira-code"
+cask "font-fira-mono"
+cask "font-fira-sans"
+cask "font-hind"
+cask "font-inter"
+cask "font-lato"
+cask "font-libre-baskerville"
+cask "font-libre-caslon-display"
+cask "font-libre-caslon-text"
+cask "font-libre-franklin"
+cask "font-lusitana"
+cask "font-montserrat"
+cask "font-nunito"
+cask "font-open-sans"
+cask "font-oswald"
+cask "font-public-sans"
+cask "font-roboto"
+cask "font-roboto-condensed"
+cask "font-roboto-mono"
+cask "font-roboto-slab"
+cask "font-source-code-pro"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
+cask "gas-mask"
+cask "github"
+cask "google-chrome"
+cask "google-cloud-sdk"
+cask "hazel"
+cask "iina-beta"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "karabiner-elements"
+cask "ksdiff"
+cask "lastfm"
+cask "little-snitch"
+cask "logitech-options"
+cask "logitech-presentation"
+cask "loopback"
+cask "mactex-no-gui"
+cask "mongodb"
+cask "multipass"
+cask "nosqlbooster-for-mongodb"
+cask "omnifocus"
+cask "omnigraffle"
+cask "omniplan"
+cask "piezo"
+cask "pock"
+cask "postgres"
+cask "postman"
+cask "protonvpn"
+cask "rabbitmq"
+cask "setapp"
+cask "soundsource"
+cask "spotify"
+cask "suspicious-package"
+cask "transmit"
+cask "twitch"
+cask "viscosity"
+cask "visual-studio-code"
+cask "vox"
+cask "waltr"
+cask "zoomus"
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Affinity Publisher", id: 881418622
+mas "Artpaper", id: 1028838684
+mas "Bear", id: 1091189122
+mas "Cardhop", id: 1290358394
+mas "Day One", id: 1055511498
+mas "Deliveries", id: 924726344
+mas "Drafts", id: 1435957248
+mas "Fantastical", id: 975937182
+mas "Foldery", id: 815333099
+mas "GarageBand", id: 682658836
+mas "Gemini 2", id: 1090488118
+mas "Gladys", id: 1382386877
+mas "Haskell", id: 841285201
+mas "iBooks Author", id: 490152466
+mas "iMovie", id: 408981434
+mas "JSON Helper", id: 453114608
+mas "Ka-Block!", id: 1335413823
+mas "Kaleidoscope", id: 587512244
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Location Helper", id: 488536386
+mas "Magnet", id: 441258766
+mas "Menu World Time", id: 1446377255
+mas "Micro Snitch", id: 972028355
+mas "Numbers", id: 409203825
+mas "OrangeCard", id: 1110195348
+mas "Pages", id: 409201541
+mas "Pasta", id: 1438389787
+mas "PCalc", id: 403504866
+mas "Pixave", id: 924891282
+mas "Pixelmator Pro", id: 1289583905
+mas "QREncoder", id: 452695239
+mas "Reeder", id: 1449412482
+mas "Reeder", id: 880001334
+mas "Remote Desktop", id: 409907375
+mas "Scrivener 3", id: 1310686187
+mas "Slack", id: 803453959
+mas "Spillo", id: 873245660
+mas "StatusClock", id: 552792489
+mas "Table Tool", id: 1122008420
+mas "ToothFairy", id: 1191449274
+mas "TouchRetouch", id: 671595950
+mas "TweetDeck", id: 485812721
+mas "Twitter Scripter", id: 645249778
+mas "VirusBarrier Scanner", id: 1200445649
+mas "Xcode", id: 497799835
