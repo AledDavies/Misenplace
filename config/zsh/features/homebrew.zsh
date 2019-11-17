@@ -11,16 +11,25 @@ alias outdated="brew update; brew outdated; brew cask outdated; mas outdated"
 # Upgrade outdated packages
 alias upgrade='outdated; brew upgrade; brew cask upgrade; mas upgrade; brew cleanup'
 
-# Snapshot and sync the Misenplace Brewfile
+# Snapshot and push the Misenplace Brewfile to remote
 brew-snapshot() {
     CWD=`pwd`
     cd "${MIZ_HOME}"
-    git pull
-    brew bundle install --file="${HOMEBREW_BREWFILE}"
     brew bundle dump --force --file="${HOMEBREW_BREWFILE}"
     git add "${HOMEBREW_BREWFILE}"
     git commit -m "Update Brewfile Snapshot"
     git push
-    brew bundle cleanup --force --file="${HOMEBREW_BREWFILE}"
     cd "${CWD}"
+}
+
+# Pull the remote Brewfile and merge
+brew-refresh() {
+    CWD=`pwd`
+    cd "${MIZ_HOME}"
+    git pull
+}
+
+# Make sure the current install matches the Brewfile
+brew-sync() {
+    brew bundle cleanup --force --file="${HOMEBREW_BREWFILE}"
 }
