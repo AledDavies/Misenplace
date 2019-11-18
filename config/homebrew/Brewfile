@@ -68,6 +68,7 @@ brew "leiningen"
 brew "mas"
 brew "maven"
 brew "mawk"
+brew "protobuf"
 brew "mitmproxy"
 brew "nettle"
 brew "nmap"
@@ -210,8 +211,6 @@ mas "PCalc", id: 403504866
 mas "Pixave", id: 924891282
 mas "Pixelmator Pro", id: 1289583905
 mas "QREncoder", id: 452695239
-mas "Reeder", id: 880001334
-mas "Reeder", id: 1449412482
 mas "Remote Desktop", id: 409907375
 mas "Scrivener 3", id: 1310686187
 mas "Spillo", id: 873245660
