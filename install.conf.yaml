@@ -7,7 +7,7 @@
 - shell:
   - mkdir -p ~/Documents/History
   - mkdir -p ~/Documents/Workspace
-  - mkdir -p ~/Documents/Scratch
+  - mkdir -p ~/Documents/Workspace/Scratch
   - mkdir -p ~/.config  
 
 - link:
