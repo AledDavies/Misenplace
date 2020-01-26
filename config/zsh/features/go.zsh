@@ -1,5 +1,5 @@
 # Setup GOPATH
-export GOPATH="${WORKSPACE_HOME}/go"
+export GOPATH="${MIZ_WORKSPACE_HOME}/go"
 
 # Add GOPATH binaries to the 'path'
 if [ -d "${GOPATH}/bin" ] ; then
