@@ -34,7 +34,7 @@ export EDITOR="vim"
 path=("/Users/awd/.local/bin" $path)
 
 # Log each command line entry to the external history file
-export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(fc -ln -1)" >> ${HISTORY_HOME}/${HOSTNAME_SHORT}-zsh-history-$(date "+%Y-%m-%d").log; fi'
+export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(fc -ln -1)" >> ${HISTORY_HOME}/${HOSTNAME_SHORT:l}-zsh-history-$(date "+%Y-%m-%d").log; fi'
 precmd() { eval "$PROMPT_COMMAND" }
 
 # Initalize any feature config files

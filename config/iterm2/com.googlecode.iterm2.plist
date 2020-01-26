@@ -3166,7 +3166,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>179 358 770 429 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>695 286 650 492 0 0 1440 877 </string>
+	<string>274 232 650 492 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>664 330 650 467 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3820,12 +3820,13 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.2</string>
-		<string>3.2.9</string>
-		<string>3.3.1</string>
-		<string>3.3.4</string>
-		<string>3.3.0</string>
 		<string>3.3.6</string>
+		<string>3.3.2</string>
+		<string>3.3.1</string>
+		<string>3.3.7</string>
+		<string>3.3.0</string>
+		<string>3.2.9</string>
+		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -3848,7 +3849,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>9EF87D72-5BCD-4914-AFBE-B9D8068CB29F</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>49</integer>
+	<integer>53</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4639,11 +4640,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-25T14:56:02Z</date>
+	<date>2020-01-26T16:58:11Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
-	<true/>
+	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -4665,7 +4666,7 @@
 	<key>disableMetalWhenUnplugged</key>
 	<true/>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
