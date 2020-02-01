@@ -9,6 +9,7 @@
   - mkdir -p ~/Documents/Workspace
   - mkdir -p ~/Documents/Workspace/Scratch
   - mkdir -p ~/.config  
+  - mkdir -p ~/.clojure
 
 - link:
     ~/.zshrc: 'config/zsh/zshrc.zsh'
@@ -20,3 +21,5 @@
     ~/.config/karabiner: 'config/karabiner'
     ~/.finicky.js: 'config/finicky/finicky.js'
     ~/.curlrc: 'config/curl/curlrc'
+    ~/.clojure/deps.edn: 'config/clojure/deps.edn'
+    ~/.clojure/user.clj: 'config/clojure/user.clj'
