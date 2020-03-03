@@ -6,6 +6,8 @@
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -3168,7 +3170,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>179 358 770 429 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>673 223 650 492 0 0 1440 877 </string>
+	<string>478 228 650 517 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>664 330 650 467 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3751,7 +3753,7 @@
 			<key>Non-ASCII Ligatures</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMonoMedium-Medium 13</string>
+			<string>JetBrainsMono-Regular 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3823,12 +3825,13 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.4</string>
+		<string>3.3.2</string>
+		<string>3.3.8</string>
 		<string>3.3.1</string>
 		<string>3.3.7</string>
-		<string>3.3.0</string>
-		<string>3.3.2</string>
 		<string>3.2.9</string>
+		<string>3.3.0</string>
+		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -3852,7 +3855,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>9EF87D72-5BCD-4914-AFBE-B9D8068CB29F</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>54</integer>
+	<integer>57</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4643,7 +4646,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-26T16:58:11Z</date>
+	<date>2020-02-04T04:58:35Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -4669,7 +4672,7 @@
 	<key>disableMetalWhenUnplugged</key>
 	<true/>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.8</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
