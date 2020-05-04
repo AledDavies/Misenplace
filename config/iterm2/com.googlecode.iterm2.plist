@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -14,6 +16,8 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>CopySelection</key>
+	<true/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Ayu-Dark</key>
@@ -3106,6 +3110,8 @@
 	<true/>
 	<key>DimOnlyText</key>
 	<true/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideActivityIndicator</key>
@@ -3170,7 +3176,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>179 358 770 429 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>682 155 650 517 0 0 1440 877 </string>
+	<string>416 285 650 517 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>664 330 650 467 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3830,8 +3836,8 @@
 		<string>3.3.1</string>
 		<string>3.3.7</string>
 		<string>3.3.9</string>
-		<string>3.3.0</string>
 		<string>3.2.9</string>
+		<string>3.3.0</string>
 		<string>3.3.2</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
@@ -3860,7 +3866,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>9EF87D72-5BCD-4914-AFBE-B9D8068CB29F</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>76</integer>
+	<integer>80</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4651,7 +4657,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-18T17:48:09Z</date>
+	<date>2020-05-02T14:57:38Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>

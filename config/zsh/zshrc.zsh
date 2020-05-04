@@ -27,9 +27,6 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Set vim to be the default editor
 export EDITOR="vim"
 
-# Add .local/bin to the path
-path=("/Users/awd/.local/bin" $path)
-
 # Log each command line entry to the external history file
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(fc -ln -1)" >> ${MIZ_HISTORY_HOME}/${MIZ_HOSTNAME_SHORT:l}-zsh-history-$(date "+%Y-%m-%d").log; fi'
 precmd() { eval "$PROMPT_COMMAND" }

@@ -23,3 +23,4 @@
     ~/.curlrc: 'config/curl/curlrc'
     ~/.clojure/deps.edn: 'config/clojure/deps.edn'
     ~/.clojure/user.clj: 'config/clojure/user.clj'
+    ~/.tmux.conf: 'config/tmux/tmux.conf'
