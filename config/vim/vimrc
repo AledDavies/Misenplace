@@ -19,6 +19,7 @@ Plug 'w0rp/ale'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-abolish'
+Plug 'jdkanani/vim-material-theme'
 call plug#end()
 
 " Don't display filename on startup
@@ -28,8 +29,9 @@ set shortmess=F
 set termguicolors
 
 " Set the color scheme
-let ayucolor="mirage"
-colorscheme ayu 
+syntax enable
+set background=dark
+colorscheme material-theme
 
 " Set Tabs and ident to 2. Expand tabs to space
 set tabstop=2 shiftwidth=2 expandtab
