@@ -22,6 +22,7 @@ Plug 'tpope/vim-abolish'
 Plug 'jdkanani/vim-material-theme'
 Plug 'jiangmiao/auto-pairs'
 Plug 'frazrepo/vim-rainbow'
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 " Map leader to ,

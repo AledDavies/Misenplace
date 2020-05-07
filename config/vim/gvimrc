@@ -1,3 +1,5 @@
 set macligatures
 set guifont=JetBrains\ Mono\ Medium:h13
 set guioptions=
+set lines=35
+set columns=100
