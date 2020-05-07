@@ -1,3 +1,4 @@
+echo -n "Loading zshrc:"
 # Core Misenplace Locations
 # Main Folder
 export MIZ_DOCUMENTS_HOME="${HOME}/Documents"
@@ -34,5 +35,8 @@ precmd() { eval "$PROMPT_COMMAND" }
 # Initalize any feature config files
 for i in `find ${MIZ_CONFIG}/zsh/features/*.zsh -type f`; 
 do
+  echo -n " ${i##*/}"
   source "${i}"
 done;
+
+echo "...done"

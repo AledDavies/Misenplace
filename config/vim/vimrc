@@ -7,20 +7,25 @@ endif
 
 " Initialize Plugins
 call plug#begin()
-Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdcommenter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'w0rp/ale'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-abolish'
 Plug 'jdkanani/vim-material-theme'
+Plug 'jiangmiao/auto-pairs'
+Plug 'frazrepo/vim-rainbow'
 call plug#end()
+
+" Map leader to ,
+let mapleader = "-,"
 
 " Don't display filename on startup
 set shortmess=F
@@ -47,7 +52,7 @@ set noshowmode
 
 " Set lightime theme  
 let g:lightline = {
-      \ 'colorscheme': 'seoul256',
+      \ 'colorscheme': 'material',
       \ }
 
 " Map ; to fzf
@@ -58,3 +63,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Remove trailing white space
 autocmd BufWritePre *.py :%s/\s\+$//e
+
+" Enable Rainbox Parentheses
+let g:rainbow_active = 1
