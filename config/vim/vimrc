@@ -23,6 +23,8 @@ Plug 'jdkanani/vim-material-theme'
 Plug 'jiangmiao/auto-pairs'
 Plug 'frazrepo/vim-rainbow'
 Plug 'mileszs/ack.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-scripts/taglist.vim'
 call plug#end()
 
 " Map leader to ,
