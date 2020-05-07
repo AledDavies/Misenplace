@@ -1,12 +1,10 @@
-echo -n "Loading zshrc:"
+echo -n "Loading zshrc"
 # Core Misenplace Locations
 # Main Folder
-export MIZ_DOCUMENTS_HOME="${HOME}/Documents"
-# We define other paths relative to ${DOCUMENTS_HOME}
+export MIZ_HOME="${HOME}/Documents/Misenplace"
+# We define other paths relative to ${MIZ_HOME}
 
-export MIZ_HOME="${MIZ_DOCUMENTS_HOME}/Misenplace"
-export MIZ_WORKSPACE_HOME="${MIZ_DOCUMENTS_HOME}/Workspace"
-export MIZ_HISTORY_HOME="${MIZ_DOCUMENTS_HOME}/History"
+export MIZ_WORKSPACE_HOME="${MIZ_HOME}/Workspace"
 export MIZ_CONFIG="${MIZ_HOME}/config"
 
 # The short version of the hostname
@@ -28,15 +26,16 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Set vim to be the default editor
 export EDITOR="vim"
 
+export HISTORY_HOME="${HOME}/Documents/History"
 # Log each command line entry to the external history file
-export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(fc -ln -1)" >> ${MIZ_HISTORY_HOME}/${MIZ_HOSTNAME_SHORT:l}-zsh-history-$(date "+%Y-%m-%d").log; fi'
+export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(fc -ln -1)" >> ${HISTORY_HOME}/${MIZ_HOSTNAME_SHORT:l}-zsh-history-$(date "+%Y-%m-%d").log; fi'
 precmd() { eval "$PROMPT_COMMAND" }
 
 # Initalize any feature config files
 for i in `find ${MIZ_CONFIG}/zsh/features/*.zsh -type f`; 
 do
-  echo -n " ${i##*/}"
+  echo -n "."
   source "${i}"
 done;
 
-echo "...done"
+echo "done"
